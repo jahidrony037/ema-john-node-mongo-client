@@ -8,7 +8,7 @@ const Login = () => {
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/shop';
-    console.log("came from : ", location.state.from);
+    //console.log("came from : ", location.state.from);
 
     const handleGoogleLogin = () => {
         signInUsingGoogle()
